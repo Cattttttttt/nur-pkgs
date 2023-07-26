@@ -20,7 +20,7 @@ buildGoModule rec {
     "-s"
     "-w"
     "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.flavor=community'"
-    "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.version=v0.1.2'"
+    "-X 'ariga.io/atlas/cmd/atlas/internal/cmdapi.version=v${version}'"
   ];
 
   passthru.updateScript = nix-update-script { };
