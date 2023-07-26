@@ -4,7 +4,7 @@ with pkgs.lib; {
   # Add your library functions here
   #
   # hexint = x: hexvals.${toLower x};
-  maintainer = {
+  maintainers = {
     NotEvenANeko = {
       name = "NotEvenANeko";
       email = "neko@qwq.icu";
